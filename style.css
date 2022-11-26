@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin-top:6vh;
+    margin-left: 25vw;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white;
+    width:860px;
+    
+}
+
+table ,tr{
+    border:1px solid white;
+    border-collapse: collapse;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display:inline-block;
+}
+table, tr,td{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.first{
+    display:flex;
+    align-items: center;
+}
+.al{
+    display: flex;
+    align-items: center;
+}
+.coin{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
